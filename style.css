@@ -51,8 +51,8 @@ body {
   }
   .confirmation-message {
     left: 0;
-    transform: translateX(-80px);
-transform: translateY(-30px)
+    transform: translate(-80px,-30px);
+
   }
 
   .img-container {
