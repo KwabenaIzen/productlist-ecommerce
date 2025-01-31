@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="main-container">
+      <section class="products-container">
+        <h1 class="primary-heading">Desserts</h1>
+        <div class="allproduct-container"></div>
+      </section>
+      <aside class="carts-container">
+        <h2 class="cart-header">
+          Your Cart (<span class="cart-counter">0</span>)
+        </h2>
+        <div class="empty-img">
+          <img src="assets/images/illustration-empty-cart.svg" alt="" />
+          <p class="cart-para">Your added items will appear here</p>
+        </div>
+
+        <div class="selection-container" style="display: none">
+          <!-- orders -->
+          <section class="cart-orders"></section>
+
+          <div class="total-price" style="display: none">
+            <span class="order-total">Order Total</span>
+            <span class="overall-price">$0.00</span>
+          </div>
+
+          <p class="delivery-para" style="display: none">
+            <img src="assets/images/icon-carbon-neutral.svg" alt="" />
+            This is a <span>carbon-neutral</span> delivery
+          </p>
+          <button class="confirm-btn" style="display: none">
+            Confirm Order
+          </button>
+        </div>
+      </aside>
+
+      <section class="confirmation-message" style="display: none">
+        <div class="confirmation-logo">
+          <img src="assets/images/icon-order-confirmed.svg" alt="" />
+          <h1>Order Confirmed</h1>
+          <p>We hope you enjoy your food!</p>
+        </div>
+        <div class="confirmation-message-choices"></div>
+
+        <div class="confirmation-total-price">
+          <span class="order-total">Order Total</span>
+          <span class="overall-price conf">$0.00</span>
+        </div>
+        <button class="neworder-btn">Start New Order</button>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Coded by
+      <a target="_blank" href="https://wa.me/+233553130196">Kwabena Izen</a>.
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
