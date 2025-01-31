@@ -52,6 +52,7 @@ body {
   .confirmation-message {
     left: 0;
     transform: translateY(-80px);
+transform: translateX(-80px);
 
   }
 
